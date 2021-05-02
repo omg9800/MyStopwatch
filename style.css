@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+#clock {
+  color: green;
+  font-size: 200px;
+  text-align: center;
+
+  background-size: 100%;
+}
+
+#start {
+  font-size: 50px;
+  margin-right: 50px;
+  border-radius: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #0eaa309d;
+}
+
+#stop {
+  font-size: 50px;
+  border-radius: 500px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #4195dad5;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Sans-Serif;
+  color: rgba(197, 221, 191, 0);
+}
+
+.oall {
+  background-color: lightblue;
+  padding-bottom: 25%;
+}
+
+#stop:hover,
+:visited {
+  background-color: #4177da8a;
+}
+
+#start:hover,
+:visited {
+  background-color: #0eaa306b;
+}
